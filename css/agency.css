@@ -73,6 +73,7 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
+  color: #808080;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -109,7 +110,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: gra;
+  background-color: #808080;
 }
 
 #mainNav .navbar-toggler {
@@ -165,7 +166,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: gray;
+    background-color: #808080;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -175,7 +176,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: gray;
+  color: #808080;
   background-image: url("../img/landing_page.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -596,13 +597,13 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/map-image.png"); /*REPLACE BACKGROUND PICTURE*/
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #808080;
 }
 
 section#contact .form-group {
@@ -676,7 +677,7 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 
-ul.social-buttons li a {
+/* ul.social-buttons li a {
   font-size: 20px;
   line-height: 50px;
   display: block;
@@ -688,6 +689,48 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: #212529;
+} */
+
+ul.social-buttons li i.fa-linkedin-in {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #4875B4;
+}
+
+ul.social-buttons li i.fa-github {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #000000;
+}
+
+ul.social-buttons li i.fa-file {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #fed136;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
