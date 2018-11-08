@@ -77,6 +77,7 @@ section h3.section-subheading {
 
 section#services {
   background-color: #f8f9fa;
+}
 
 @media (max-width: 600px) {
   div.col-6.col-sm-4.col-md-2 {
