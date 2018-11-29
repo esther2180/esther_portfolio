@@ -208,11 +208,13 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #808080;
-  background-image: url("../img/landing_page.jpeg");
+  background-image: url("../img/landing_pg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 header.masthead .intro-text {
@@ -238,7 +240,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    /* padding-top: 300px; */
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
