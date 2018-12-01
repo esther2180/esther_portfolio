@@ -13,6 +13,12 @@ body {
   background-color: #f8f9fa;
 }
 
+.profile {
+  max-width: 75%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
 .row.justify-content-center > div {
   height: 115px;
   width: 100px;
@@ -25,7 +31,12 @@ svg{
 }
 
 p {
-  line-height: 1.75;
+  line-height: 2;
+  margin-left: 10%;
+}
+
+.summary {
+  text-align: left;
 }
 
 /* #technologies{
@@ -697,7 +708,7 @@ footer {
 
 footer span.copyright {
   font-size: 90%;
-  line-height: 40px;
+  line-height: 50px;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
