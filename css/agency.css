@@ -32,7 +32,7 @@ svg{
 
 p {
   line-height: 2;
-  /* margin-left: 5%; */
+  margin-left: 10%;
 }
 
 .summary {
@@ -822,12 +822,6 @@ ul.social-buttons li i.fa-file {
   border-radius: 100%;
   outline: none;
   background-color: #b69357;
-}
-
-.grow:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
