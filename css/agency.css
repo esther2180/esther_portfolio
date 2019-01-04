@@ -44,7 +44,7 @@ p {
 } */
 
 a {
-  color: #fed136;
+  color: white;
 }
 
 a:hover { 
@@ -111,7 +111,7 @@ section h3.section-subheading {
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -688,6 +688,7 @@ section#contact {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(black, gray);
+  padding-bottom: 3%;
 }
 
 section#contact .section-heading {
@@ -749,7 +750,7 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 0;
   text-align: center;
   background-color: #f8f9fa;
 }
@@ -759,6 +760,7 @@ footer span.copyright {
   line-height: 50px;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: white;
 }
 
 footer ul.quicklinks {
@@ -770,13 +772,13 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 5%;
 }
 
-/* ul.social-buttons li a {
+ul.social-buttons li a {
   font-size: 20px;
   line-height: 50px;
-  display: block;
+  /* display: block; */
   width: 50px;
   height: 50px;
   -webkit-transition: all 0.3s;
@@ -784,13 +786,28 @@ ul.social-buttons {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
-} */
+  /* background-color: #212529; */
+  padding: 10%;
+}
+
+ul.social-buttons li i.fa-envelope {
+  font-size: 30px;
+  line-height: 50px;
+  /* display: block; */
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: black;
+}
 
 ul.social-buttons li i.fa-linkedin-in {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 50px;
-  display: block;
+  /* display: block; */
   width: 50px;
   height: 50px;
   -webkit-transition: all 0.3s;
@@ -802,9 +819,9 @@ ul.social-buttons li i.fa-linkedin-in {
 }
 
 ul.social-buttons li i.fa-github {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 50px;
-  display: block;
+  /* display: block; */
   width: 50px;
   height: 50px;
   -webkit-transition: all 0.3s;
@@ -813,12 +830,12 @@ ul.social-buttons li i.fa-github {
   border-radius: 100%;
   outline: none;
   background-color: #000000;
-}
+} 
 
 ul.social-buttons li i.fa-file {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 50px;
-  display: block;
+  /* display: block; */
   width: 50px;
   height: 50px;
   -webkit-transition: all 0.3s;
@@ -829,10 +846,11 @@ ul.social-buttons li i.fa-file {
   background-color: #b69357;
 }
 
+
 .grow:hover { 
   transform: scale(1.1); 
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+/* ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
-}
+} */
